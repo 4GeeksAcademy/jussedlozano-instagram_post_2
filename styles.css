@@ -1,0 +1,102 @@
+ /*{
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+body{
+    background: black;
+    padding: 20px;
+}
+
+#container{
+    background: white;
+    width: 400px;
+    justify-content: center;
+    margin: 0px auto;
+    font-family: 'Roboto';
+}
+
+.header{
+    display: flex;
+}
+
+.divpic{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilepic{
+    float: left;
+    width: 25px;
+    height: 25px;
+    line-height:0; 
+}
+
+.profilepic img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.userlocation{
+    float: left;
+    width: fit-content; 
+    width: 80%;
+}
+
+.username{
+    font-size: 11pt;
+    margin: 7px 5px 0px 3px;
+}
+.location{
+    font-size: 9pt;
+    margin: 0px 5px 7px 3px;
+}
+
+.header i{
+    width: 8%;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18pt;
+}
+
+.image img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display:block;
+}
+
+.icons {
+    display: flex;
+    font-size: 18pt;
+    padding-top: 10px;
+}
+
+.icons .like {
+    float: left;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.icons .save{
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.footer{
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.footer p{
+    font-size: 13px;
+    margin: 10px;
+    text-align: justify;
+}
